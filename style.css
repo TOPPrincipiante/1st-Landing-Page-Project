@@ -2,8 +2,6 @@ body {
     font-family: Roboto, sans-serif;
     margin: 0;
     height: 100vh;
-    display:flex;
-    flex-direction: column;
 }
 
 .first-section {
@@ -45,14 +43,16 @@ body {
 
 .introduction {
     display: flex;
-    justify-content: space-around;
+    border: solid green;
+    width: 1000px;
+    justify-content: space-between;
 }
 
 .intro-content{
     min-width: 400px;
     border-style: solid;
     border-color: yellow;
-    max-width: fit-content;
+    max-width: 500px;
 }
 
 .intro-title {
