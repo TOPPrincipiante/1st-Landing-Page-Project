@@ -4,19 +4,17 @@ body {
     height: 100vh;
     display:flex;
     flex-direction: column;
-    
 }
 
 .first-section {
   background-color: #1F2937;
-  margin: 0;
 }
 
 .header{
     display: flex;
     height: 20px;
     justify-content: space-around;
-   align-items: center;
+    align-items: center;
     padding: 20px 0px;
 }
 
