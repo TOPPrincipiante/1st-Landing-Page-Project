@@ -81,12 +81,37 @@ body {
     align-items: center;
 }
 
+.main-section-content {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    border: 2px solid red;
+}
+
 .main-title {
     padding: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800px;
 }
 
 .main-media {
     display: flex;
+    justify-content: space-around;
+    border: 2px solid green;
+    column-gap: 40px;
+}
+
+.media{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+p {
+    text-align: center;
 }
 
 .third-section {
