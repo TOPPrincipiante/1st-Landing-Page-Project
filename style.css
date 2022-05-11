@@ -8,14 +8,26 @@ body {
 
 .first-section {
   background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 1000px;
+    border-style: solid;
+    border-color: red;
 }
 
 .header{
     display: flex;
-    height: 20px;
-    justify-content: space-around;
     align-items: center;
-    padding: 20px 0px;
+    justify-content: flex-start;
+    column-gap: 400px;
+    margin-bottom: 50px;
 }
 
 .logo {
@@ -32,9 +44,34 @@ body {
 }
 
 .introduction {
-    display:flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro-content{
+    min-width: 400px;
     border-style: solid;
-    border-color: red;
+    border-color: yellow;
+    max-width: fit-content;
+}
+
+.intro-title {
+    font-size: 48px;
+    font-weight: 800;
+    color:#F9FAF8;
+}
+
+.intro-text{
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.button-1 {
+    background-color: #3882f6;
+    color:#E5E7EB;
+    font-weight:bold;
+    
 }
 
 .second-section {
