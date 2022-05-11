@@ -1,9 +1,31 @@
-.page {
+body {
     font-family: Roboto, sans-serif;
     margin: 0;
     height: 100vh;
     display:flex;
     flex-direction: column;
+    
 }
 
+.first-section {
+  background-color: #1F2937;
+  margin: 0;
+}
 
+.header{
+    display: flex;
+    height: 40px;
+    padding: 40px;
+}
+
+.second-section {
+
+}
+
+.third-section {
+
+}
+
+.fourth-section{
+ 
+}
