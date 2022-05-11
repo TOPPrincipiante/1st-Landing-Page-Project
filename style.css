@@ -128,7 +128,12 @@ align-items: center;
     flex-wrap: wrap;
     border: 1px solid blue;
     padding: 80px
+}
 
+.main-quote {
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 300;
 }
 
 spam {
@@ -137,7 +142,10 @@ spam {
     align-items: flex-end;
     border: 1px solid blue;
     margin-left: auto;
+}
 
+.attribution{
+    font-weight: 800px;
 }
 
 .fourth-section{
