@@ -31,6 +31,12 @@ body {
     font-size: 18px;
 }
 
+.introduction {
+    display:flex;
+    border-style: solid;
+    border-color: red;
+}
+
 .second-section {
 
 }
