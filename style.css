@@ -127,14 +127,17 @@ align-items: center;
     align-items: center;
     flex-wrap: wrap;
     border: 1px solid blue;
+    padding: 80px
 
 }
 
-.attribution {
+spam {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
     border: 1px solid blue;
     margin-left: auto;
+
 }
 
 .fourth-section{
