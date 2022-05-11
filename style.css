@@ -85,7 +85,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 800px;
-    border: 2px solid red;
 }
 
 .main-title {
@@ -100,7 +99,6 @@ body {
 .main-media {
     display: flex;
     justify-content: space-around;
-    border: 2px solid green;
     column-gap: 40px;
 }
 
@@ -115,7 +113,7 @@ p {
 }
 
 .third-section {
-
+background-color: #E5E7EB;
 }
 
 .fourth-section{
