@@ -191,3 +191,20 @@ padding-right: 60px;
      font-size: 24px;
  }
  
+ .footer-section {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #1F2937;
+margin-top: 50px;
+margin-bottom: 50px;
+ }
+
+
+ .footer   {
+     display: flex;
+     margin-top: 40px;
+     margin-bottom: 40px;
+     align-items: center;
+     color:#F9FAF8
+ }
